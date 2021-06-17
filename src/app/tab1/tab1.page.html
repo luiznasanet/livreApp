@@ -1,17 +1,147 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
+<ion-header>
+  <ion-toolbar color="dark">
     <ion-title>
-      Tab 1
+     Carros
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="cinza">
+  <ion-searchbar placeholder="Busca"></ion-searchbar>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-grid class="ion-text-center ion-no-padding">
+
+    <ion-row class="ion-no-padding">
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://static.turbosquid.com/Preview/2019/11/22__05_51_15/Mercedes_AMG_GTR_PRO_2020_0000.jpg170DF946-D966-4498-806D-9244C37301D3Large.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Mercedes-AMG GT R Pro
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>2.201.900</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://i.pinimg.com/736x/91/2c/c5/912cc587ebc9f10feab20127b13145af.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Mercedes-AMG G 63
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>1.685.900</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row class="ion-no-padding">
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://cdn.motor1.com/images/mgl/KpEA0/s1/porsche-911-cabriolet-2020-avaliacao-br.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Porsche 911 Turbo S Cabriolet
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>1.509.000</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="http://www.planetcarsz.com/assets/uploads/c136e51b5bd254732efcebe3bf570283.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Nissan gtr
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>769.109</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+
+    <ion-row class="ion-no-padding">
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="http://www.planetcarsz.com/assets/uploads/AUDI%20R8%20V10%20PLUS%20PERFORMANCE%20PARTS%202018%2001.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Audi R8 Performance
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>1.375.990</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://www.planetcarsz.com/assets/uploads/BMW%20M8%20SERIES%20COMPETITION%20CABRIO%20BY%20G-POWER%202020%2001.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              BMW M8 Competition
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>1.136.950</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://fotos.jornaldocarro.estadao.com.br/uploads/2017/08/26120131/lamborghini-veneno-2-1160x775.jpg"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Lamborghini Veneno Roadster
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>10.000.00</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+      <ion-col class="ion-no-padding">
+        <ion-card>
+          <img src="https://top-carros.com/wp-content/uploads/2021/02/bugatti-la-voiture-noire.png"
+           alt="carro">
+           <ion-item lines="none" class="ion-no-padding">
+             <ion-label>
+              Bugatti La Voiture Noire
+             </ion-label>
+           </ion-item>
+           <ion-item lines="none" class="ion-no-padding">
+            <ion-note slot="end" color="dark">R$ <span>67.000.00</span></ion-note>
+           </ion-item>
+        </ion-card>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
+
 </ion-content>
